@@ -1,0 +1,9 @@
+header {
+    flex: 0 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    background-color: var(--main-bright-color);
+    color: var(--main-dark-color);
+}
