@@ -14,8 +14,8 @@ import heptagon from '../../assets/heptagon.svg'
 export default function Card (props) {
   const shapes = [ellipse, square, triangle, rectangle, star, rhombus, octagon, heptagon]
   return (
-    <div id='card' >
-      <img src={shapes[props.shapeID]} alt='shape' />
+    <div id='card' onClick={e => { props.onClick(props.shapeID) }}>
+      <img src={shapes[props.shapeID]} alt='shape'/>
     </div>
   )
 }
