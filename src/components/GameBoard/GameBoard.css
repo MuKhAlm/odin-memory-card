@@ -1,8 +1,12 @@
 #gameBoard {
     width: min(100%, 1000px);
     height: 50%;
-    
-    margin: 5% auto auto auto;
+    margin: auto;
     border-radius: 10px;
     background-color: var(--main-bright-color);
+
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
 }
