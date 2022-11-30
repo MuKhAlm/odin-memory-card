@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react'
 
 import './GameBoard.css'
 import Card from '../Card/Card'
 import generateRandomIntegers from '../../utils/utils'
 
-export default function GameBoard () {
+export default function GameBoard (props) {
   // eslint-disable-next-line no-unused-vars
   const [shapes, setShapes] = useState(generateRandomIntegers(8))
   // eslint-disable-next-line no-unused-vars
@@ -25,7 +26,8 @@ export default function GameBoard () {
       // Rearrange shapes
       setShapes(generateRandomIntegers(8))
 
-      // TODO: Update score (and best score)
+      // Update score (and best score)
+      props.handleScoreChange(1)
     } else {
       // Reset clicked shapes
       setClickedShapes([])
@@ -33,7 +35,8 @@ export default function GameBoard () {
       // Rearrange shapes
       setShapes(generateRandomIntegers(8))
 
-      // TODO: Reset score
+      // Reset score
+      props.handleScoreChange(0)
     }
   }
 
