@@ -4,6 +4,7 @@ import './Main.css'
 
 import Scores from '../Scores/Scores'
 import GameBoard from '../GameBoard/GameBoard'
+import { changeColor } from '../../utils/utils'
 
 export default function Main () {
   // eslint-disable-next-line no-unused-vars
@@ -14,6 +15,8 @@ export default function Main () {
   useEffect(() => {
     if (score > bestScore) {
       setBestScore(score)
+      const bestScoreDisplay = document.getElementById('bestScore')
+      changeColor(bestScoreDisplay, 'green')
     }
   }, [score, bestScore])
 
@@ -25,8 +28,12 @@ export default function Main () {
   const handleScoreChange = (change) => {
     if (change === 1) {
       setScore(score + 1)
+      const scoreDisplay = document.getElementById('score')
+      changeColor(scoreDisplay, 'green')
     } else if (change === 0) {
       setScore(0)
+      const scoreDisplay = document.getElementById('score')
+      changeColor(scoreDisplay, 'red')
     }
   }
 

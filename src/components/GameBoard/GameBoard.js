@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 import './GameBoard.css'
 import Card from '../Card/Card'
-import generateRandomIntegers from '../../utils/utils'
+import { generateRandomIntegers } from '../../utils/utils'
 
 export default function GameBoard (props) {
   // eslint-disable-next-line no-unused-vars

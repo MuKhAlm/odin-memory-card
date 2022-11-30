@@ -6,7 +6,7 @@
     color: var(--main-bright-color);
 }
 
-#scores text {
+#scores p {
     margin: auto 2%;
     font-size: 1.2rem;
     font-weight: bold;

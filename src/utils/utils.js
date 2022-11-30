@@ -3,7 +3,7 @@
  * @param {Number} n The number of random integers to be generated
  * @returns a list of n random integers
  */
-export default function generateRandomIntegers (n) {
+export function generateRandomIntegers (n) {
   const integers = []
   let integer
   while (integers.length < n) {
@@ -13,4 +13,11 @@ export default function generateRandomIntegers (n) {
     }
   }
   return integers
+}
+
+export function changeColor (bestScoreDisplay, color) {
+  bestScoreDisplay.style.color = color
+  setTimeout(() => {
+    bestScoreDisplay.style.color = 'antiquewhite'
+  }, 500)
 }
