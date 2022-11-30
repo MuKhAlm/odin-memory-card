@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/odin-memory-game/static/css/main.5fe68df8.css",
+    "main.js": "/odin-memory-game/static/js/main.2e563db4.js",
+    "index.html": "/odin-memory-game/index.html",
+    "static/media/square.svg": "/odin-memory-game/static/media/square.2aaf48982ffd60773db3f2a68d821bb7.svg",
+    "static/media/rhombus.svg": "/odin-memory-game/static/media/rhombus.5f1987e310c98e776dcad5bc26df17e1.svg",
+    "static/media/octagon.svg": "/odin-memory-game/static/media/octagon.2fa94383254e86e189c9faf55b3f34fd.svg",
+    "static/media/heptagon.svg": "/odin-memory-game/static/media/heptagon.5072c8a5e1bad843af51c7d7f0bc51aa.svg",
+    "static/media/rectangle.svg": "/odin-memory-game/static/media/rectangle.99bb11de9aa254b2dbad29cb4392ed1a.svg",
+    "static/media/triangle.svg": "/odin-memory-game/static/media/triangle.5a9eff1b1285bc859f34673f67556fb6.svg",
+    "static/media/star.svg": "/odin-memory-game/static/media/star.c7ea8f48ab767897019cddfbc089e31d.svg",
+    "static/media/ellipse.svg": "/odin-memory-game/static/media/ellipse.60412057188848ed732dbdf655c7966c.svg",
+    "main.5fe68df8.css.map": "/odin-memory-game/static/css/main.5fe68df8.css.map",
+    "main.2e563db4.js.map": "/odin-memory-game/static/js/main.2e563db4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fe68df8.css",
+    "static/js/main.2e563db4.js"
+  ]
+}
