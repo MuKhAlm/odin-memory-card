@@ -1,0 +1,8 @@
+#gameBoard {
+    width: min(100%, 1000px);
+    height: 50%;
+    
+    margin: 5% auto auto auto;
+    border-radius: 10px;
+    background-color: var(--main-bright-color);
+}

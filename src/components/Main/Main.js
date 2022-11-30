@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './Main.css'
 
 import Scores from '../Scores/Scores'
+import GameBoard from '../GameBoard/GameBoard'
 
 export default function Main () {
   // eslint-disable-next-line no-unused-vars
@@ -13,6 +14,7 @@ export default function Main () {
   return (
     <main>
       <Scores score={ score } bestScore={ bestScore }></Scores>
+      <GameBoard></GameBoard>
     </main>
   )
 }
